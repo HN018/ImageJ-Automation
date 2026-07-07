@@ -14,7 +14,7 @@ These macros automate the most tedious and error-prone steps of the image analys
 **Automated ROI Saver (`save_rois.ijm`)**: Ensures strict data provenance and record keeping by automatically detecting the active image's directory, creating a standardized `ROI` parent folder, and saving the ROI Manager contents (as `.roi` or `.zip` depending on the count) as the correponding image's name without manual file routing.
 **Batch Channel Splitter (`split_channels_batch.ijm`)**: Iterates through all open images in the workspace, identifies multi-channel files, and executes a batch channel split, ignoring single-channel images. 
 **Batch TIFF Saver (`save_all_tiff.ijm`)**: A rapid data-dump utility that takes all open, processed workspace images, strips invalid filename characters, saves them as standardized TIFFs to a target directory, and safely closes the workspace.
-**Composite Contrast Standardizer (`composite_display.ijm`)**: Automatically formats dual-channel images into a standardized composite view (assigning colored channels, example showed 2 channels) and applies a uniform 0.2% saturated contrast enhancement for consistent visual inspection of co-localization.
+**Composite Contrast Standardizer (`composite_export.ijm`)**: Automatically formats dual-channel images into a standardized composite view (assigning colored channels, example showed 2 channels) and applies a uniform 0.2% saturated contrast enhancement for consistent visual inspection of co-localization.
 **Stack Duplicator (`create_stack.ijm`)**: A utility script that takes a single frame and rapidly generates a standardized stack, useful for generating movies from images of each frame (example showed 45 slices).
 
 ## Usage
